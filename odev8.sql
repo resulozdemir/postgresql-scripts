@@ -10,16 +10,16 @@ insert into employee (id, name, birthday, email) values (6, 'Rainer', '1927-02-1
 insert into employee (id, name, birthday, email) values (50, 'Viki', '1910-09-19', 'vjurn1d@sphinn.com'); ...
 3 - 
 UPDATE employee SET name = 'ahah', email = 'ahah@gmail.com' WHERE birthday = '1900-02-02' RETURNING *;
-UPDATE employee SET name = 'sevelim', email = 'sevkiguzel@olsun.com' WHERE birthday = '1999-11-09' RETURNING *;
-UPDATE employee SET name = 'ben', email = 'canım@kendim.com' WHERE birthday = '1973-12-31' RETURNING *;
-UPDATE employee SET name = 'abovv', email = 'abovv@onebeoyle.com' WHERE birthday = '1923-05-12' RETURNING *;
-UPDATE employee SET name = 'kopecik', email = 'havhav@kopek.com' WHERE birthday = '1938-04-26' RETURNING *;
+UPDATE employee SET name = 'guzel', email = 'guzel@email.com' WHERE birthday = '1999-11-09' RETURNING *;
+UPDATE employee SET name = 'ben', email = 'can@email.com' WHERE birthday = '1973-12-31' RETURNING *;
+UPDATE employee SET name = 'abv', email = 'abv@email.com' WHERE birthday = '1923-05-12' RETURNING *;
+UPDATE employee SET name = 'ha', email = 'ha@email.com' WHERE birthday = '1938-04-26' RETURNING *;
 
 UPDATE employee SET email = 'bababa@gmail.com', birthday = '1678-04-28' WHERE name = 'Rayn' RETURNING *;
-UPDATE employee SET email = 'bengeldim@gmail.com', birthday = '1856-07-12' WHERE name = 'Malik' RETURNING *;
-UPDATE employee SET email = 'sengeldin@gmail.com', birthday = '1678-09-06' WHERE name = 'Doe' RETURNING *;
-UPDATE employee SET email = 'bizgeldik@gmail.com', birthday = '1678-05-27' WHERE name = 'Kinna' RETURNING *;
-UPDATE employee SET email = 'hepimizgeldik@gmail.com', birthday = '1678-12-15' WHERE name = 'Jess' RETURNING *;
+UPDATE employee SET email = 'Malik@gmail.com', birthday = '1856-07-12' WHERE name = 'Malik' RETURNING *;
+UPDATE employee SET email = 'Doe@gmail.com', birthday = '1678-09-06' WHERE name = 'Doe' RETURNING *;
+UPDATE employee SET email = 'Kinna@gmail.com', birthday = '1678-05-27' WHERE name = 'Kinna' RETURNING *;
+UPDATE employee SET email = 'Jess@gmail.com', birthday = '1678-12-15' WHERE name = 'Jess' RETURNING *;
 
 UPDATE employee SET name = 'Adam', birthday = '1676-10-16' WHERE email = 'bhcıas@weather.com' RETURNING *;
 UPDATE employee SET name = 'Opel', birthday = '1872-11-25' WHERE email = 'favorita@news.com' RETURNING *;
@@ -41,7 +41,7 @@ DELETE FROM employee WHERE birthday = '1872-11-25' RETURNING *;
 DELETE FROM employee WHERE birthday = '1676-10-16' RETURNING *;
 
 DELETE FROM employee WHERE email = 'atollet1@vinaora.com' RETURNING *;
-DELETE FROM employee WHERE email = 'bizgeldik@gmail.com' RETURNING *;
-DELETE FROM employee WHERE email = 'bababa@hobby.com' RETURNING *;
-DELETE FROM employee WHERE email = 'favorita@news.com' RETURNING *;
-DELETE FROM employee WHERE email = 'bengeldim@gmail.com' RETURNING *;
+DELETE FROM employee WHERE email = 'gel@gmail.com' RETURNING *;
+DELETE FROM employee WHERE email = 'ba@hobby.com' RETURNING *;
+DELETE FROM employee WHERE email = 'favori@news.com' RETURNING *;
+DELETE FROM employee WHERE email = 'ben@gmail.com' RETURNING *;
